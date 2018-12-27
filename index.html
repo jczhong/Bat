@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .container {
+            width: 1000px;
+            margin: 0 auto;
+        }
+        canvas {
+            border: 4px solid black;
+        }
+    </style>
+    <script data-main="scripts/main.js" src="scripts/lib/require.js"></script>
+</head>
+
+<body>
+    <audio id="bg" src="sounds/bg.mp3" type='audio/mp3'></audio>
+    <audio id="over" src="sounds/over.ogg"></audio>
+    <audio id="hit" src="sounds/hit.wav"></audio>
+    <audio id="eat" src="sounds/eat.wav"></audio>
+    <div class="container">
+        <canvas id="mycanvas" width="1000" height="600" tabindex="1">
+            This browser does not support canvas!
+        </canvas>
+    </div>
+</body>
+
+</html>
